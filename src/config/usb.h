@@ -30,7 +30,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  * USB external interfaces
  *
  */
-//#undef	USB_EFI		/* Provide EFI_USB_IO_PROTOCOL interface */
+#define	USB_EFI		/* Provide EFI_USB_IO_PROTOCOL interface */
 
 #include <config/named.h>
 #include NAMED_CONFIG(usb.h)
